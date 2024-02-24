@@ -197,7 +197,7 @@ print("Среднее по кросс-валидации: ", np.array(metrics_f1
 
 ```python
 import numpy as np
-print("Среднее по кросс-валидации: ", np.array(metrics_f1).mean())
+print("Дисперсия по кросс-валидации: ", np.array(metrics_f1).var())
 ```
 
 Выполняем кросс-валидацию с помощью функции cross_val_score:
